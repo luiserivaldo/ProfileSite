@@ -1,0 +1,88 @@
+body {
+    background-color: #495054;
+}
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    margin-top: 30;
+    margin-bottom: 5;
+}
+h2 {
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+    font-size: 15pt;
+    margin-top: -3px;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    border-radius: %; 
+}
+/* Hide Hyperlink Underline. */
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+
+.container {
+    width: 700;
+    height: 1000;
+    align-content: center;
+    margin: auto;
+    background-color: #FAF9F6;
+    border-radius: 4%;
+}
+.profile-image {
+    position: relative;
+    top: 20;
+}
+.profile-image img {
+    border-radius: 50%;
+}
+.grid-icons{
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    grid-gap: 20;
+    padding: 10;
+    border-radius: 100%;
+}
+/* Four image containers (width 25%). */
+.icon-column{ 
+    flex: 25%;
+    padding: 10pt;
+}
+/* Clear floats after image containers */
+.icon-row {
+    display: flex;
+    margin-top: -10;
+    margin-right: 100;
+    margin-left: 100;
+}
+.links-container{
+    width: 500;
+    margin: auto;
+}
+.link-bars {
+    align-content: center;
+    background-color: #000000;
+    border-radius: 10px;
+    padding: 10;
+    margin: 50;
+}
+.link-bars p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 30pt;
+    text-align: center;
+    color: white;
+    margin: 10;
+    letter-spacing: 0.5pt;
+}
+
